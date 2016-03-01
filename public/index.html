@@ -1,6 +1,93 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Flat file<img src="asdf.png"></h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Yeager</title>
+    <link rel="stylesheet" href="/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <btn id='button1'>About</btn>
+      <btn id='button2'>Project</btn>
+      <btn id='button3'>Contact</btn>
+    </nav>
+    <div class='section i1'>
+      <div class='layer1'>
+        <h1 class='name'>Michael Yeager</h1>
+        <h2 class='title'>Full Stack Developer</h2>
+        <div class='btnHolders'>
+        </div>
+      </div>
+    </div>
+    <div class='section c1' id='about'>
+      <div class='c1Wraper'>
+        <h2 class='title'>About</h2>
+        <p>We can only see a short distance ahead, but we can see plenty there that needs to be done. <i>--Alan Turing</i></p>
+        <p>My favorite thing about programing is that it program does exactly what you tell it to do.  It allows you to create and make all  of the abstractions for yourself.</p>
+      </div>
+    </div>
+    <div class='section i2' id='projects'>
+      <div class='layer2'>
+
+        <div class=projectHolder>
+
+          <h2 class='title'>Projects</h2>
+
+          <div class='projectRow'>
+
+            <div class='project'>
+              <h3 class='projectTitle'>Chessboard Soccer</h3>
+              <img src="/assets/chessboardSoccer.png" alt="website img" class='projectImg' />
+              <h4 class='header'>Description</h4>
+              <p>Board game that incorporates both the strategies of chess and soccer. Sign up and make a profile then connect and play with others over the internet.  </p>
+              <h4 class='header'>Technologies</h4>
+              <p>Html canvas, Jquery, Socket-io, PostgreSQL, Express, Node, Passport</p>
+              <div class='iconRow'>
+                <i class="fa fa-github linkIcon"></i>
+                <i class="fa fa-globe linkIcon"></i>
+              </div>
+            </div>
+
+            <div class='project'>
+              <h3 class='projectTitle'>The Online Cookbook</h3>
+              <img src="/assets/OnlineCookbook.png" alt="website img" class='projectImg' />
+              <h4 class='header'>Description</h4>
+              <p>Find your favorite online recipes and save the links to your online-cookbook through google chrome extension.  Easily filter and organize your recipes from your personal cookbook.</p>
+              <h4 class='header'>Technologies</h4>
+              <p>Angular, Node, MongoDB, Express, Passport, Chrome extensions, Webtokens</p>
+              <div class='iconRow'>
+                <i class="fa fa-github linkIcon"></i>
+                <i class="fa fa-globe linkIcon"></i>
+              </div>
+            </div>
+
+            <div class='project'>
+              <h3 class='projectTitle'>Brew's Brothers</h3>
+              <img src="/assets/BrewsBrothers.png" alt="website img" class='projectImg' />
+              <h4 class='header'>Description</h4>
+              <p> project using Iot connecting to automated beer fermentation system to the internet.  Logon and create a fermentation cycle which send code to raspberry pi to run the cycle.</p>
+              <h4 class='header'>Technologies</h4>
+              <p>Angular, Socket-io, Raspberry-pi, Node, Express, Passport, Webtokens, PostgreSQL, MongoDB</p>
+              <div class='iconRow'>
+                <i class="fa fa-github linkIcon"></i>
+                <i class="fa fa-globe linkIcon"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class='section c2' id='contact'>
+      <h2 class='title' >Contact</h2>
+      <div class='aSim'><h3 class='contactInfo'><i class='fa fa-map-marker contactIcon'></i> Denver, CO</h3></div>
+      <a href="mailto:m.yeager001@gmail.com"><h3 class='contactInfo'><i class="fa fa-envelope contactIcon"></i> m.yeager001@gmail.com</h3></a>
+      <a href="https://github.com/myeager001"><h3 class='contactInfo'><i class="fa fa-github contactIcon"></i> myeager001</h3></a>
+      <a href="https://www.linkedin.com/in/yeagermichael"><h3 class='contactInfo'><i class="fa fa-linkedin-square contactIcon"></i> https://www.linkedin.com/in/yeagermichael</h3></a>
+    </div>
+    <script src="/main.js" charset="utf-8"></script>
+  </body>
 </html>
