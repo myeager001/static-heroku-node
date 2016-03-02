@@ -149,6 +149,9 @@ p::first-letter{
   align-items: center;
   flex-direction: column;
 }
+.linkIcon{
+  color: rgb(160, 120, 230);
+}
 .linkIcon:hover{
   color: rgb(190,229,191);
 }
